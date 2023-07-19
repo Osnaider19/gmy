@@ -1,0 +1,61 @@
+.container-img-modelo{
+    position: relative;
+    top: 30px;
+    right:-3px;
+    width: 800px;
+    height: 500px;
+}
+.img-overflow{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+.img-modelo{
+    position: absolute;
+    z-index: 20;
+    left: 210px;
+    height: 500px;
+    z-index: 11;
+    top: 0px;
+    pointer-events: none;
+    user-select: none;
+}
+.img-david{
+    position: absolute;
+    height: 500px;
+    left: -60px;
+    z-index:10;
+    pointer-events: none;
+    user-select: none;
+
+}
+.triangulo-1{
+    position: absolute;
+    height: 630px;
+    background-color: hsl(86, 92%, 54%);
+    width: 600px;
+    right: 0;
+    top: -130px;
+    clip-path: polygon(79% 68%, 100% 0, 100% 100%, 69% 100%);
+    z-index: 10;
+}
+.triangulo-2{
+    position: absolute;
+    height: 630px;
+    background-color: hsl(86, 92%, 47%);
+    width: 600px;
+    right: 0;
+    top: -130px;
+    clip-path: polygon(64% 54%, 100% 0, 100% 100%, 36% 100%);
+    z-index: 9;
+}
+.triangulo-3{
+    position: absolute;
+    height: 630px;
+    background-color: hsl(86, 92%, 45%);
+    width: 600px;
+    right: 0;
+    top: -130px;
+    clip-path: polygon(87% 0, 100% 0, 100% 100%, 0% 100%);
+   z-index: 8;
+}
