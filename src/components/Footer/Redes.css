@@ -1,0 +1,19 @@
+.a-enlace-icono{
+    color: #000000;
+    text-decoration: none;
+}
+.li-iconos-redes{
+    position: relative;
+    background-color: #99F51D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.li-iconos-redes:hover{
+    background-color: #EEF1E9;
+    transition: all .2s;
+    transform: scale(1.04);
+}

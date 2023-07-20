@@ -1,0 +1,45 @@
+.div-img{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    
+}
+.img-imc-modelo{
+    position: relative;
+    left: 20px;
+    height: 408px;
+    width: 600px;
+    z-index: 20;
+    top: 5px;
+}
+.triangulo-imc-1{
+    position: absolute;
+    height: 408px;
+    background-color: hsl(86, 92%, 54%);
+    width: 600px;
+    right: 0;
+    top: 5px;
+    clip-path: polygon(79% 68%, 100% 0, 100% 100%, 69% 100%);
+    z-index: 10;
+}
+.triangulo-imc-2{
+    position: absolute;
+    height: 408px;
+    background-color: hsl(86, 92%, 47%);
+    width: 600px;
+    right: 0;
+    top: 5px;
+    clip-path: polygon(64% 54%, 100% 0, 100% 100%, 36% 100%);
+    z-index: 9;
+}
+.triangulo-imc-3{
+    position: absolute;
+    height: 408px;
+    background-color: hsl(86, 92%, 45%);
+    width: 600px;
+    right: 0;
+    top: 5px;
+    clip-path: polygon(87% 0, 100% 0, 100% 100%, 0% 100%);
+   z-index: 8;
+}

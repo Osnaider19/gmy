@@ -1,7 +1,7 @@
 import React from "react";
 import { FaClock } from "react-icons/fa";
 import { MdFlashOff } from "react-icons/md";
-function ItemPlanes({ img, title, duration, intensity, description }) {
+function ItemPlans({ img, title, duration, intensity, description }) {
   return (
     <li className="max-w-[340px] min-h-[490px] rounded-lg pb-4 border-2 border-transparent overflow-hidden shadow-md drop-shadow-sm hover:border-[#78d400] hover:-translate-y-5 transition-transform duration-200">
       <img src={img} alt="" className="w-full h-full object-cover" />
@@ -31,4 +31,4 @@ function ItemPlanes({ img, title, duration, intensity, description }) {
   );
 }
 
-export default ItemPlanes;
+export default ItemPlans;

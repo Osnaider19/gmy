@@ -1,12 +1,16 @@
 import React from "react";
 import Home from "./Home/Home";
-import Planes from "./Planes/Planes";
+import Plans from "./Plans/Plans";
+import Prince from "./Prince/Prince";
+import Imc from "./Imc/Imc";
 
 function Main() {
   return (
     <main className="w-[90%] m-auto">
       <Home />
-      <Planes/>
+      <Plans/>
+      <Prince/>
+      <Imc/>
     </main>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
-import ItemPlanes from "./ItemPlanes";
+import ItemPlans from "./ItemPlans";
 
-function Planes() {
+function Plans() {
   return (
     <div className="relative w-full">
       <div>
@@ -12,21 +12,21 @@ function Planes() {
       </div>
       <div>
         <ul className="flex justify-between items-center flex-wrap py-8">
-          <ItemPlanes
+          <ItemPlans
             img={`https://smart-site-assets-production.s3.amazonaws.com/assets/new-home-v4-assets/aulas/zumba-cover.webp`}
             title={`FLEX MUSCLE`}
             duration={`30/50/60 min`}
             intensity={`Alta`}
             description={`creando tensión que hace que las fibras musculares se reduzcan o se contraigan temporalmente`}
           />
-          <ItemPlanes
+          <ItemPlans
             img={`https://smart-site-assets-production.s3.amazonaws.com/assets/new-home-v4-assets/aulas/smart-shape-cover.webp`}
             title={`SMART SHAPE`}
             duration={`30 min`}
             intensity={`Alta`}
             description={`Nuestro circuito exclusivo de adelgazamiento intenso de 30 minutos es una combinación de varios ejercicios.`}
           />
-          <ItemPlanes
+          <ItemPlans
             img={`https://www.theholbrookclub.co.uk/wp-content/uploads/2015/09/BodyCombat.jpg`}
             title={`SMART COMBAT`}
             duration={`30/50 min`}
@@ -39,4 +39,4 @@ function Planes() {
   );
 }
 
-export default Planes;
+export default Plans;
