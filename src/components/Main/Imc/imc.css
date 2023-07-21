@@ -41,5 +41,26 @@
     right: 0;
     top: 5px;
     clip-path: polygon(87% 0, 100% 0, 100% 100%, 0% 100%);
-   z-index: 8;
+    z-index: 8;
+}
+
+@media (max-width:1024px){
+    .div-img{
+        width: 100%;
+        
+    }
+    .img-imc-modelo{
+        left: 0;
+        object-fit: cover;
+    }
+    .triangulo-imc-1{
+        width: 100%;
+    }
+    .triangulo-imc-2{
+        width: 100%;
+    }
+    .triangulo-imc-3{
+        width: 100%;
+    }
+
 }

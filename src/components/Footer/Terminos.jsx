@@ -1,17 +1,19 @@
 import React from "react";
-import ItemTerminos from "./ItemTerminos";
 import Redes from "./Redes";
-import FitNationTerminos from "./FitNationTerminos";
-import PlansTerminos from "./PlansTerminos";
-
+import TextFooter from "./TextFooter";
+import "./footer.css";
 function Terminos() {
   return (
-    <div className="pt-14">
-      <ul className="flex justify-between">
-        <FitNationTerminos />
-        <PlansTerminos />
+    <div className="relative pt-14 ">
+      <div className="flex justify-between flex-col">
+        <TextFooter />
         <Redes />
-      </ul>
+        <div>
+          <div className="w-[90%] m-auto h-[1px] bg-white mt-9"></div>
+          <p className="text-center py-3">&copy; fitnation 2023 </p>
+          <p className="text-center ">Todos los derechos reservados</p>
+        </div>
+      </div>
     </div>
   );
 }

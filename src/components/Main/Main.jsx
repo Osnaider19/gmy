@@ -6,7 +6,7 @@ import Imc from "./Imc/Imc";
 
 function Main() {
   return (
-    <main className="w-[90%] m-auto">
+    <main>
       <Home />
       <Plans/>
       <Prince/>

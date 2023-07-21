@@ -92,7 +92,7 @@ export const data = [
   {
     id: 3,
     icon: `${IconDiamond}`,
-    title: "paquete Diamate",
+    title: "paquete Diamante",
     price: "300",
     access: [
       {

@@ -1,11 +1,12 @@
 import React from "react";
 import { FaClock } from "react-icons/fa";
 import { MdFlashOff } from "react-icons/md";
+import "./Plans.css";
 function ItemPlans({ img, title, duration, intensity, description }) {
   return (
-    <li className="max-w-[340px] min-h-[490px] rounded-lg pb-4 border-2 border-transparent overflow-hidden shadow-md drop-shadow-sm hover:border-[#78d400] hover:-translate-y-5 transition-transform duration-200">
+    <li className="max-w-[340px] min-h-[490px] rounded-lg pb-4  border-transparent overflow-hidden shadow-md drop-shadow-sm  sm:hover:-translate-y-5 transition-transform duration-200 item-plans">
       <img src={img} alt="" className="w-full h-full object-cover" />
-      <h3 className="text-xl py-2 text-center bg-[#99F51D] text-[#1A1616] font-semibold">
+      <h3 className="text-xl py-2 text-center bg-sky-900 text-white font-semibold">
         {title}
       </h3>
       <div className="flex justify-between px-4 pt-3">

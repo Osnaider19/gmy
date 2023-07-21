@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 const Header = () => {
   return (
-    <header className="relative flex justify-between py-3 px-16 items-center bg-[#1A1616] text-white">
+    <header className="relative flex justify-between py-3 px-4 items-center bg-[#131010] text-white sm:px-9 ">
       <Logo />
       <Nav />
     </header>

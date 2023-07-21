@@ -5,7 +5,7 @@ import ItemNav from "./ItemNav";
 function Nav() {
   return (
     <div>
-      <ul className="relative flex justify-center items-center gap-2 z-50">
+      <ul className="relative hidden  justify-center items-center gap-2 z-50 md:flex">
         <ItemNav link={`#`} name={`Inicio`} />
         <ItemNav link={`#`} name={`Productos`} />
         <ItemNav link={`#`} name={`Programas`} />

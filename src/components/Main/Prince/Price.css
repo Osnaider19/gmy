@@ -1,0 +1,6 @@
+.item-price {
+   background: rgba(255,255,255,0.2);
+   -webkit-backdrop-filter: blur(3px);
+   backdrop-filter: blur(3px);
+   
+}

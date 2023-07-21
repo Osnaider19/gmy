@@ -3,7 +3,7 @@ import ItemPlans from "./ItemPlans";
 
 function Plans() {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full px-9 pt-10 bg-gradient-to-t from-sky-900 via-violet-[#131010] to-transparent ">
       <div>
         <h2 className="text-4xl text-center font-semibold text-[#99F51D]">
           Nuestros programas
@@ -11,7 +11,7 @@ function Plans() {
         <p className="text-center text-2xl">Haz que tú cuerpo se forme</p>
       </div>
       <div>
-        <ul className="flex justify-between items-center flex-wrap py-8">
+        <ul className="flex justify-center gap-3 items-center flex-wrap py-8 lg:justify-between">
           <ItemPlans
             img={`https://smart-site-assets-production.s3.amazonaws.com/assets/new-home-v4-assets/aulas/zumba-cover.webp`}
             title={`FLEX MUSCLE`}
