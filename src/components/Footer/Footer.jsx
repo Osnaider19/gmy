@@ -4,7 +4,7 @@ import Terminos from "./Terminos";
 
 function Footer() {
   return (
-    <div className="py-10 w-[90%] m-auto ">
+    <div className="py-10 w-[95%] m-auto ">
       <From />
       <Terminos />
     </div>
@@ -12,3 +12,4 @@ function Footer() {
 }
 
 export default Footer;
+
