@@ -14,7 +14,7 @@ function From() {
           <form className="flex flex-col gap-4 items-center py-3 sm:flex-row ">
             <input
               type="email"
-              className="outline-none w-full px-3 rounded h-[40px] bg-transparent border border-[#99F51D] sm:w-[70%]"
+              className="outline-none w-[80%] px-3 rounded h-[40px] bg-transparent border border-[#99F51D] sm:w-[70%]"
               placeholder="fitnation@gmail.com"
             />
             <button type="submit" className="py-2 w-48 px-4 bg-[#99F51D] rounded">

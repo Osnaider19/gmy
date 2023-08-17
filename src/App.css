@@ -4,3 +4,11 @@ body{
     background-color: #131010;
     color: aliceblue;
 }
+html{
+    max-width: 1360px;
+    margin: 0 auto;
+   
+}
+.toggle__menu{
+    right: 0;
+}
